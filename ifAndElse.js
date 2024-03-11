@@ -42,6 +42,161 @@
 //}
 //--------------------------------------------------
 
+//4. As	maçãs	 custam	 R$	 0,30	 cada	 se	 forem	 compradas	menos	 do	 que	 uma	
+//dúzia,	 e	 R$	 0,25	 se	 forem	 compradas	 pelo	 menos	 doze.	 Escreva	 um	
+//programa	 que	 leia	 o	 número	 de	 maçãs	 compradas,	 calcule	 e	 escreva	 o	
+//valor	total	da	compra.
+
+//let qtdMacas = 11;
+//let valorUnid = 0.30;
+//let valorVarejo = 0.25;
+
+//if (qtdMacas >= 12) {
+//   console.log(`Foi comprado ${qtdMacas} maçãs e o valor total da compra é R$ ${(qtdMacas * valorVarejo).toFixed(2)} reais.`);
+//} else if (qtdMacas < 12) {
+//    console.log(`Foi comprado ${qtdMacas} maçãs e o valor total da compra é R$ ${(qtdMacas * valorUnid).toFixed(2)} reais.`);
+//}
+//---------------------------------------------------
+
+//5. Escreva	 um	 programa	 para	 ler	 3	 valores	 inteiros	 (considere	 que	 	 não	
+//    serão	lidos	valores	iguais)	e	escrevê-los	em	ordem	crescente.
+
+//let valor1 = 4;
+//let valor2 = 6;
+//let valor3 = 3;
+
+//if (valor1 < valor2 && valor2 < valor3) {
+//    console.log(valor1, valor2, valor3)
+//} else if (valor1 > valor2 && valor2 > valor3) {
+//   console.log(valor3, valor2, valor1)
+//} else if (valor1 < valor2 && valor1 > valor3) {
+//    console.log(valor3, valor1, valor2)
+//} else if (valor1 === valor2 || valor2 === valor3 || valor1 === valor3) {
+//    console.log(`Não é possível ler a ordem dos números.`)
+//}
+//----------------------------------------------------
+
+//6. Tendo	 como	 entrada	 a	 altura	 e	 o	 sexo	 //(codificado	 da	 seguinte	 forma:	
+//    1:feminino	 	 2:masculino)	 de	 uma	 pessoa,	 construa	 um	 programa	 que	
+//    calcule	e	imprima	seu	peso	ideal,	utilizando	as	seguintes	
+//    Fórmulas:	
+//    - para	homens:	(72.7	*	Altura)	– 58	
+//    - para	mulheres:	(62.1	*	Altura)	– 44.7	
+    
+//let feminino = 1;
+//let masculino = 2;
+//let sexo;
+//let altura = 1.75;
+//let pesoIdealfeminino = (62.1 * altura) - 44.7;
+//let pesoIdealHomem = (72.7 * altura) - 58;
+
+//if (sexo === feminino) {
+//    console.log(`Seu peso ideal é ${pesoIdealfeminino.toFixed(2)} kg.`);
+//} else if (sexo === masculino) {
+//    console.log(`Seu peso ideal é ${pesoIdealHomem.toFixed(2)} kg.`);
+//} else {
+//    console.log(`Escolha um sexo.`)
+//}
+//-----------------------------------------------
+
+//7. Escreva	um	programa	para	ler	o	número	de	lados	de	um	polígono	regular	
+//e	a	medida	do	lado	(em	cm).	Calcular	e	imprimir	o	seguinte:	
+//− Se	o	número	de	lados	for	igual	a	3	escrever	TRIÂNGULO	e	o	valor	da	
+//área
+//− Se	o	número	de	lados	for	igual	a	4	escrever	QUADRADO	e	o	valor	da	
+//sua	área.	
+//− Se	o	número	de	lados	for	igual	a	5	escrever	PENTÁGONO.
+
+//let numLadosPoligono = 5;
+//let medidaLado = 8;
+//let areaTriagulo = ((medidaLado**2) * Math.sqrt(3))/4;
+//let areaQuadrado = medidaLado**2;
+
+//if (numLadosPoligono === 3) {
+ //   console.log(`TRIANGULO e sua área é ${areaTriagulo.toFixed(2)}.`);
+//} else if (numLadosPoligono === 4) {
+ //   console.log(`QUADRADO e sua área é ${areaQuadrado.toFixed(2)}.`);
+//} else if (numLadosPoligono === 5) {
+//    console.log(`PENTÁGONO.`);
+//};
+//-------------------------------------------------
+
+//8. Acrescente	 as	 seguintes	 mensagens	 à	 solução	 do	 exercício	 anterior	
+//conforme	o	caso.	
+//− Caso	 o	 número	 de	 lados	 seja	 inferior	 a	 3	 escrever	 NÃO	 É	 UM	
+//POLÍGONO.	
+//− Caso	o	número	de	lados	seja	superior	a	5	escrever	POLÍGONO	NÃO	
+//IDENTIFICADO.
+
+//let numLadosPoligono = 2;
+
+//if (numLadosPoligono < 3) {
+//    console.log(`NÃO É UM POLÍGONO.`)
+//} else if (numLadosPoligono > 5) {
+//    console.log(`POLÍGONO NÃO IDENTIFICADO.`)
+//}
+//--------------------------------------------------
+
+//9. Escreva	um	programa	para	ler	3	valores	inteiros	e	escrever	o	maior	deles.	
+//Considere	que	o	usuário	não	informará	valores	iguais.
+
+//let valor1 = 15;
+//let valor2 = 16;
+//let valor3 = 8;
+
+//if (valor1 > valor2 && valor1 > valor3) {
+//    console.log(valor1);
+//} else if (valor1 < valor2 && valor2 > valor3) {
+//    console.log(valor2);
+//} else if (valor1 < valor2 && valor2 < valor3) {
+//    console.log(valor3);
+//} else if (valor1 > valor2 && valor1 < valor3) {
+//    console.log(valor3);
+//}
+//------------------------------------------------
+
+//10. Escreva	 um	 programa que	 leia	 as	 medidas	 //dos	 lados	 de	 um	 triângulo	 e	
+//escreva	se	ele	é	Equilátero,	Isósceles	ou	Escaleno.	Sendo	que:	
+//− Triângulo	Equilátero:	possui	os	3	lados	iguais.	
+//− Triângulo	Isóscele:	possui	2	lados	iguais.	
+//− Triângulo	Escaleno:	possui	3	lados	diferentes.
+
+//let lado1 = 10;
+//let lado2 = 15;
+//let lado3 = 5;
+
+//if (lado1 === lado2 && lado1 === lado3) {
+//    console.log(`TRIÂNGULO EQUILÁTERO.`);
+//} else if (lado1 === lado2 || lado1 === lado3) {
+//    console.log (`TRIÂNGULO ISÓSCELES.`);
+//} else if (lado1 !== lado2 && lado2 === lado3) {
+//    console.log (`TRIÂNGULO ISÓSCELES.`);
+//} else if (lado1 !== lado2 && lado2 !== lado3) {
+//    console.log(`TRIÂNGULO ESCALENO.`);
+//}
+//--------------------------------------------------
+
+//11. Escreva	 um	 programa	 que	 leia	 o	 valor	 de	 3	 ângulos	 de	 um	 triângulo	 e	
+//escreva	 se	 o	 triângulo	 é	 Acutângulo,	 Retângulo	 ou	 Obtusângulo.	 Sendo	
+//que:	
+//− Triângulo	Retângulo:	possui	um	ângulo	reto.	(igual	a	90º)
+//− Triângulo	Obtusângulo:	possui	um	ângulo	obtuso.	(maior	que90º)	
+//− Triângulo	Acutângulo:	possui	três	ângulos	agudos.	(menor	que	90º)
+
+let triangulo = [80, 90, 60]
+
+if (triangulo.includes(90)) {
+    console.log(`TRIÂNGULO RETANGULO.`);
+} else if (triangulo.some(angulo => angulo > 90)) {
+    console.log(`TRIÂNGULO OBTUSÂNGULO.`)
+} else if (triangulo.some(angulo => angulo < 90)) {
+    console.log(`TRIÂNGULO ACUTÂNGULO.`)
+}
+
+//obs: O método 'Includes()' vai verificar se no array têm um algum ângulo de 90 graus. 
+//obs²: O método 'some()' vai verificar se há algum ângulo maior ou menor que 90 graus.
+
+
 
 
 
