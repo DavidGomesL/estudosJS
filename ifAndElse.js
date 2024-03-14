@@ -183,18 +183,30 @@
 //− Triângulo	Obtusângulo:	possui	um	ângulo	obtuso.	(maior	que90º)	
 //− Triângulo	Acutângulo:	possui	três	ângulos	agudos.	(menor	que	90º)
 
-let triangulo = [80, 90, 60]
-
-if (triangulo.includes(90)) {
-    console.log(`TRIÂNGULO RETANGULO.`);
-} else if (triangulo.some(angulo => angulo > 90)) {
-    console.log(`TRIÂNGULO OBTUSÂNGULO.`)
-} else if (triangulo.some(angulo => angulo < 90)) {
-    console.log(`TRIÂNGULO ACUTÂNGULO.`)
-}
+//let triangulo = [80, 90, 60]
+//
+//if (triangulo.includes(90)) {
+//    console.log(`TRIÂNGULO RETANGULO.`);
+//} else if (triangulo.some(angulo => angulo > 90)) {
+//    console.log(`TRIÂNGULO OBTUSÂNGULO.`)
+//} else if (triangulo.some(angulo => angulo < 90)) {
+//    console.log(`TRIÂNGULO ACUTÂNGULO.`)
+//}
 
 //obs: O método 'Includes()' vai verificar se no array têm um algum ângulo de 90 graus. 
 //obs²: O método 'some()' vai verificar se há algum ângulo maior ou menor que 90 graus.
+//----------------------------------------------------------------
+
+//Faça um script que recebe o salário de um colaborador e o reajuste segundo o seguinte critério, baseado no salário atual:
+//
+//    salários até R$ 280,00 (incluindo) : aumento de 20%
+//    salários entre R$ 280,00 e R$ 700,00 : aumento de 15%
+//    salários entre R$ 700,00 e R$ 1500,00 : aumento de 10%
+//    salários de R$ 1500,00 em diante : aumento de 5% Após o aumento ser realizado, informe na tela:
+//    o salário antes do reajuste;
+//    o percentual de aumento aplicado;
+//    o valor do aumento;
+//    o novo salário, após o aumento.
 
 
 
