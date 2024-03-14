@@ -253,6 +253,8 @@
 //      Entre 4.0 e zero                      E
 //    O algoritmo deve mostrar numa janela de alertas notas, a média, o conceito correspondente e a mensagem “APROVADO” se o conceito for A, B ou C ou “REPROVADO” se o conceito for D ou E.
 
+let a;
+
 
 
 
