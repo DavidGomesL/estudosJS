@@ -42,5 +42,32 @@
 //    }
 //}
 //----------------------------------------------------------------------------------
+//Contar quantas letras 'a' há em uma string:
+
+//let frase =  "Qual o nome do aluno?"
+//let arrayFrase = frase.split(''); //Irá transformar a string em array: ["Q","u,"a","l"," ","o"," ","n","o",...]
+//let contadorA = 0; //Irá ser utilizada para contagem dos elementos.
+//
+//for(let i = 0; i < arrayFrase.length; i++) {
+//    //O "if" está aplicando a condição
+//    if(arrayFrase[i] === "a") {
+//        contadorA++ //Está contabilizando a cada loop do for se encontrar "a"
+//    }
+//}
+//console.log(contadorA)
+//-----------------------------------------------------------------------------------
+//Maior numero de uma lista
+
+//let lista = [12,8,2,14,16,11,23,24,25,30,31]
+//let maiorNum = lista[0]; //Está iniciando a variável "maiorNum" com o primeiro elemento da lista
+//
+//for(let i = 0; i < lista.length; i++) {
+//    //Vai verificar se o número atual é maior que o número em "maiorNum"
+//    if(lista[i] > maiorNum){
+//        maiorNum = lista[i] //Atualiza o "maiorNum" se o número atual for maior 
+//    }
+//}
+//console.log(maiorNum)
+//------------------------------------------------------------------------------------
 
 
