@@ -69,5 +69,107 @@
 //}
 //console.log(maiorNum)
 //------------------------------------------------------------------------------------
+//Encontrar o menor número em uma lista de números
+
+//let lista = [12,8,2,14,16,11,23,24,25,30,31]
+//let menorNum = lista[0]; //A variável "menorNum" vai iniciar com o primeiro elemento da variável "lista"
+//
+//for(let i = 0; i < lista.length; i++){
+//    //Vai verificar se o atual numero da lista é menor que o número em "menorNum"
+//    if(lista[i] < menorNum) {
+//        menorNum = lista[i] //Atualiza o "menorNum" se o numero atual da "lista[i]" for menor
+//    }
+//}
+//console.log(menorNum)
+//-------------------------------------------------------------------------------------
+//Filtrar números negativos em uma lista de números
+
+//let lista = [12,8,-2,14,-16,11,-23,24,25,30,31]
+//
+//for(let i = 0; i < lista.length; i++) {
+//    //Verifica se o atual numero da lista é menor que zero(0)
+//    if(lista[i] < 0){
+//        console.log(lista[i]) //Imprime no console todos os números da lista que forem menor que zero(0)
+//    }
+//}
+//------------------------------------------------------------------------------
+//Verificar se uma string contém uma determinada letra
+
+//let frase = "Onde você mora?"
+//let arrayFrase = frase.split(''); //Está transformando a string em array: ["O","n","d","e",...]
+//
+//for(let i = 0; i < arrayFrase.length; i++) {
+//    //Verifica se o index da rodada é estritamente igual a letra "n"
+//    if(arrayFrase[i] === "n") {
+//        console.log(`Contém a letra "n".`) //Imprime no console a afirmação se ouver letra "n" no index
+//    }
+//}
+//------------------------------------------------------------------------------
+//Encontrar múltiplos de 5 em uma lista de números
+//let lista = [12,8,2,5,16,11,23,24,25,30,31]
+//
+//for(let i = 0; i < lista.length; i++) {
+//    //Verificar se o elemento atual, quando divido por 5, retorna resultado zero(0)
+//    if(lista[i] % 5 === 0) {
+//        console.log(lista[i]) //Imprime no console os números que tiveram resultado igual a zero(0)
+//    }
+//}
+//------------------------------------------------------------------------------
+//Calcular e imprimir a média de números em uma lista
+
+//let lista = [12,8,2,5,16,11,23,24,25,30,31]
+//let soma = 0;
+//
+//for(let i = 0; i < lista.length; i++) {
+//    soma+= lista[i]  //vai calcular a soma de todos os números na lista
+//}
+//let media = soma / lista.length //Vai pegar o valor da soma total e dividir pelo tamanho da lista
+////obs: A variável "media" precisa ser adicionada após o "for", pois caso seja colocada antes não irá conseguir pegar o tamnho da lista (lista.length) para realizar a divisão, retornando o valor zero(0)
+//console.log(soma, media) //Imprime no console o valor da soma total dos números da lista e a média dos números da lista
+//------------------------------------------------------------------------------
+//Verificar e imprimir números divisíveis por 3 em um intervalo
+
+//let lista = [12,8,2,5,16,11,23,24,25,30,31]
+//
+//for(let i = 0; i < lista.length; i++) {
+//    if(lista[i] % 3 === 0) {
+//        console.log(lista[i])
+//    }
+//}
+//------------------------------------------------------------------------------
+//Encontrar e imprimir números pares e ímpares separadamente em uma lista
+//let lista = [12,8,2,5,16,11,23,24,25,30,31]
+//let pares = []; //Variável criada para receber os números pares
+//let impares = []; //Variável criada para receber os números ímpares
+//
+//for(let i = 0; i < lista.length; i++) {
+//    //Verifica se o número atual é divisível por 2
+//    if(lista[i] % 2 === 0) {
+//        pares.push(lista[i]) //Está pegando os números divisiveis por 2
+//    } else {
+//        impares.push(lista[i]) //Está pegando os números não divisiveis por 2
+//    }
+//}
+//console.log(pares, impares) //Imprime no console os números pares e os números ímpares separadamente
+//------------------------------------------------------------------------------
+//Verificar se na frase "PHP morreu" tem alguma letra e.
+//let frase = "PHP morreu";
+//let arrayFrase = frase.split(''); //Transforma a string da variável "frase" em array: ["P","H","P",...]
+//let encontrouE = false; //Essa vari´´avel será usada para indicar se a letra "e" foi encontrada na string
+//
+//for(let i = 0; i < arrayFrase.length; i++){
+//    //Verifica se o elemento atual é estritamente igual a letra "e"
+//    if(arrayFrase[i] === "e"){
+//       encontrouE = true; //Indica que a letra "e" foi encontra na string
+//       break; //Interrompe o loop assim que a letra "e" for encontrada
+//    }
+//}
+////Verifica se a variável "encontrouE" é verdadeira
+//if(encontrouE){
+//    console.log(`Possui a letra "e".`) //Se encontrou a letra "e", imprime a mensagem "Possui a letra 'e'"
+//} else {
+//    console.log(`Não possui a letra "e".`) //Se não encontrou a letra "e", imprime a mensagem "Não possui a letra 'e'"
+//}
+
 
 
